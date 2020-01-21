@@ -1,0 +1,80 @@
+    /* GENERALE */
+
+    body {
+        width           : auto;
+        margin          : auto;
+        background-color: whitesmoke;
+        font-family     : serif;
+    }
+
+    /*Trait de separation des parties*/
+    hr {
+        height          : 2px;
+        background-color: black;
+    }
+
+    /*Mise en forme du HEADER*/
+    header {
+        display         : -webkit-box;
+        display         : -ms-flexbox;
+        display         : flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack   : justify;
+        justify-content : space-between;
+    }
+
+    .logogpv {
+
+        margin-left     : 47%;
+        margin-top      : 5vh;
+
+    }
+
+    .deco {
+        margin-top      : 5vh;
+        margin-right    : 2vh;
+    }
+
+    .container {
+        margin-top      : 12vh;
+        margin-bottom   : 12vh;
+        border          : 3px solid black;
+        border-radius   : 10px;
+        padding         : 10px;
+    }
+
+
+    /* CORP DE PAGE */
+
+    #tableauClient,
+    #tableauVehicule {
+        margin          : 10px;
+    }
+
+    td {
+        text-align      : center;
+    }
+
+
+    h2 {
+        text-align      : center;
+        font-size       : 1.6em;
+        font-weight     : bold;
+        text-decoration : underline;
+    }
+
+    .client {
+        font-size       : 0.5em;
+    }
+
+    /*FOOTER*/
+
+    footer {
+        display         : -webkit-box;
+        display         : -ms-flexbox;
+        display         : flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack   : center;
+        justify-content : center;
+        margin-top      : 4vh;
+    }
